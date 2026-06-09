@@ -1,0 +1,152 @@
+{
+  "version": "v4.1-runsite-default",
+  "settings": {
+    "modo_ectomorfo": "1",
+    "limite_treino_min": "90",
+    "frase": "Treino forte, alimentação forte e descanso inteligente."
+  },
+  "workouts": [
+    {
+      "name": "RunSite - Peito Ombro Tríceps",
+      "day": "Segunda",
+      "focus": "Peito/Ombro/Tríceps",
+      "max_minutes": 90,
+      "exercises": [
+        {
+          "exercise_id": "RS001",
+          "name": "Supino reto com barra",
+          "muscle": "Peito",
+          "sets": 4,
+          "reps": "8-12",
+          "rest": 90,
+          "weight": 12,
+          "set_type": "normal"
+        },
+        {
+          "exercise_id": "RS002",
+          "name": "Supino inclinado halteres",
+          "muscle": "Peito",
+          "sets": 3,
+          "reps": "8-12",
+          "rest": 90,
+          "weight": 14,
+          "set_type": "normal"
+        },
+        {
+          "exercise_id": "RS003",
+          "name": "Elevação lateral",
+          "muscle": "Ombros",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": 60,
+          "weight": 6,
+          "set_type": "normal"
+        },
+        {
+          "exercise_id": "RS004",
+          "name": "Tríceps polia",
+          "muscle": "Tríceps",
+          "sets": 3,
+          "reps": "10-12",
+          "rest": 60,
+          "weight": 25,
+          "set_type": "normal"
+        }
+      ]
+    },
+    {
+      "name": "RunSite - Costas Bíceps",
+      "day": "Quarta",
+      "focus": "Costas/Bíceps",
+      "max_minutes": 90,
+      "exercises": [
+        {
+          "exercise_id": "RS005",
+          "name": "Puxada alta frente",
+          "muscle": "Costas",
+          "sets": 4,
+          "reps": "8-12",
+          "rest": 90,
+          "weight": 40,
+          "set_type": "normal"
+        },
+        {
+          "exercise_id": "RS006",
+          "name": "Remada baixa",
+          "muscle": "Costas",
+          "sets": 4,
+          "reps": "8-12",
+          "rest": 90,
+          "weight": 40,
+          "set_type": "normal"
+        },
+        {
+          "exercise_id": "RS007",
+          "name": "Rosca direta",
+          "muscle": "Bíceps",
+          "sets": 3,
+          "reps": "8-12",
+          "rest": 75,
+          "weight": 10,
+          "set_type": "normal"
+        }
+      ]
+    },
+    {
+      "name": "RunSite - Pernas Abdômen",
+      "day": "Sexta",
+      "focus": "Pernas/Abdômen",
+      "max_minutes": 90,
+      "exercises": [
+        {
+          "exercise_id": "RS008",
+          "name": "Agachamento livre",
+          "muscle": "Pernas",
+          "sets": 4,
+          "reps": "8-12",
+          "rest": 120,
+          "weight": 15,
+          "set_type": "normal"
+        },
+        {
+          "exercise_id": "RS009",
+          "name": "Leg press",
+          "muscle": "Pernas",
+          "sets": 4,
+          "reps": "10-12",
+          "rest": 90,
+          "weight": 100,
+          "set_type": "normal"
+        },
+        {
+          "exercise_id": "RS010",
+          "name": "Stiff",
+          "muscle": "Posterior",
+          "sets": 3,
+          "reps": "8-12",
+          "rest": 90,
+          "weight": 20,
+          "set_type": "normal"
+        },
+        {
+          "exercise_id": "RS011",
+          "name": "Prancha",
+          "muscle": "Abdômen",
+          "sets": 3,
+          "reps": "30-60s",
+          "rest": 45,
+          "weight": 0,
+          "set_type": "tempo"
+        }
+      ]
+    }
+  ],
+  "nutrition": {
+    "bulking_tip": "Se o peso não subir em 7 a 14 dias, aumente 250 a 400 kcal por dia.",
+    "shake": "Leite + banana + aveia + pasta de amendoim."
+  },
+  "videos": {
+    "Supino reto com barra": "cole_aqui_um_link_de_video_proprio_ou_youtube",
+    "Rosca direta": "cole_aqui_um_link"
+  }
+}
