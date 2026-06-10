@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: treino-pro-max-online-api
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: TREINO_API_TOKEN
+        sync: false
+      - key: TREINO_ADMIN_TOKEN
+        sync: false
+      - key: TREINO_DATA_DIR
+        value: data
